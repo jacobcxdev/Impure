@@ -1,0 +1,9 @@
+Package: com.jacobcxdev.impure
+Name: Impure
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: A tweak for the hook-up application 'Pure', which allows you to upload images from the camera roll instead of taking a picture with the camera.
+Maintainer: JacobCXDev
+Author: JacobCXDev
+Section: Tweaks

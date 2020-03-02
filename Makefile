@@ -1,7 +1,4 @@
-FINALPACKAGE = 1
-
 ARCHS = arm64 arm64e
-
 INSTALL_TARGET_PROCESSES = Pure
 
 include $(THEOS)/makefiles/common.mk

@@ -46,7 +46,7 @@ static void (^cameraHandler)(UIAlertAction *action);
 			if (cameraAction && cameraHandler) cameraHandler(cameraAction);
 		}];
 		UIAlertAction *notAgain = [UIAlertAction actionWithTitle:@"Don't show again" style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
-			[[NSUserDefaults standardUserDefaults] setObject:@"true" forKey:@"hideImpureInstructions"];
+			[[NSUserDefaults standardUserDefaults] setObject:@true forKey:@"hideImpureInstructions"];
 			[[NSUserDefaults standardUserDefaults] synchronize];
 			if (cameraAction && cameraHandler) cameraHandler(cameraAction);
 		}];
